@@ -1,0 +1,27 @@
+.navigation {
+    &__logo {
+        margin-left: 5rem;
+        @media only screen and (max-width: $bp-medium) {
+            margin-left: 0;
+        }
+    }
+    &__button {
+        border: 0.1rem solid $color-white;
+        margin-right: 5rem;
+        padding: 0.7rem 5rem;
+        border-radius: 0.1rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $color-white;
+        transition: $primary-transition;
+        @media only screen and (max-width: $bp-medium) {
+            border: none;
+            padding: 0;
+        }
+        &:hover,
+        &:active {
+            background-color: $color-tertiary;
+            color: $color-primary;
+        }
+    }
+}

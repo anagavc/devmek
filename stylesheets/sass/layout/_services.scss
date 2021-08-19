@@ -1,0 +1,21 @@
+.services {
+    margin-top: 10rem;
+    color: $color-primary;
+    &__content {
+        display: flex;
+        justify-content: space-around;
+        @media only screen and (max-width: $bp-medium) {
+            flex-direction: column;
+        }
+
+        &-item {
+            padding: 4rem;
+            &:not(:last-child) {
+                margin-right: 10rem;
+                @media only screen and (max-width: $bp-medium) {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}

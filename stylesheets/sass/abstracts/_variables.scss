@@ -1,0 +1,28 @@
+//COLORS
+$color-primary: #1e3c72;
+$color-secondary: #2a5298;
+
+$color-tertiary: #d7ebff;
+
+$color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
+$color-white: #fff;
+$color-black: #000;
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+
+//FONTS
+$default-font-size: 1.6rem;
+$heading-font: "Montserrat", sans-serif;
+$body-font: "Nunito", sans-serif;
+
+//TRANSITION
+$primary-transition: all 0.5s;
+
+//MEDIA QUERY
+$bp-largest: 75em; //1200px, 1200px/16px=75em
+$bp-large: 62.5em; //1000px, 1000px/16px=62.5em
+$bp-medium: 50em; //800px, 800px/16px=50em
+$bp-small: 37.5em; //600px, 600px/16px=37.5em
