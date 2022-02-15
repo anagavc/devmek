@@ -31,6 +31,21 @@
             display: flex;
             flex-direction: column;
             padding: 0 3rem;
+            &__technologies {
+                display: flex;
+                justify-content: space-between;
+                padding: 2rem 0;
+                font-size: 1.5rem;
+            }
+            &__buttons {
+                display: flex;
+                justify-content: space-between;
+                a {
+                    display: flex;
+                    justify-content: space-evenly;
+                    margin-right: 1.5rem;
+                }
+            }
             @media only screen and (max-width: $bp-medium) {
                 order: 2;
                 padding: 0;
@@ -41,19 +56,25 @@
             margin-left: 5rem;
             flex-basis: 50%;
             height: 30rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            background-color: $color-tertiary;
-            border-radius: 0.2rem;
-            color: $color-secondary;
+            img {
+                width: 60rem;
+                @media only screen and (max-width: $bp-medium) {
+                    width: 40rem;
+                }
+            }
+            &__links {
+                display: flex;
+                justify-content: flex-end;
+                padding: 0;
+                margin-left: 1.5rem;
+            }
             @media only screen and (max-width: $bp-medium) {
                 order: 1;
                 margin-left: 0;
             }
             a {
                 align-self: flex-end;
-                padding: 2.5rem 5rem;
+                padding: 2.5rem 1.3rem;
                 color: $color-secondary;
                 transition: $primary-transition;
                 &:hover,
